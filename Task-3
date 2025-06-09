@@ -1,0 +1,11 @@
+package Challenges;
+public class task3 {
+
+	public static void main(String[] args) {
+		
+		String a="i will improve my skill";
+		
+		String[] word=a.split("\\s+");
+		System.out.println("Enter the String  : "+a);
+		System.out.println("Split the word    :"+word.length);
+		
